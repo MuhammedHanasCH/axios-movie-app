@@ -1,0 +1,51 @@
+/* SearchBar.css */
+
+/* Container to ensure full-width and responsiveness */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;   /* Full-width container */
+  margin: 0 auto;
+  max-width: 100%; /* Ensures it doesn't overflow on large screens */
+  padding: 10px 20px; /* Adds some padding on sides */
+}
+
+/* Search input to take full width */
+.search-input {
+  width: 100%;
+  max-width: 100%;  /* Ensures it stays responsive */
+  padding: 15px;    /* Makes input a bit larger */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styles for the search button */
+.search-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;  
+  white-space: nowrap; 
+}
+
+button:disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .search-input {
+    font-size: 14px;  
+    padding: 12px;   
+  }
+
+  .search-button {
+    padding: 10px 16px;  
+    font-size: 14px;     
+  }
+}
