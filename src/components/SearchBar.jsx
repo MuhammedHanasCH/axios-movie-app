@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FormControl, Button, Spinner } from "react-bootstrap";
-import './Searchbar.css';
+import './SearchBar.css';
 
 const SearchBar = ({ onSearch, isLoading }) => {
   const [query, setQuery] = useState("");
