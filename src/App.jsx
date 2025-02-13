@@ -5,8 +5,7 @@ import Navbar from './components/Navbar'
 import MovieList from './components/Movielist'
 import Footer from './components/Footer'
 import About from './components/About'
-import SearchBar from './components/Searchbar';
-
+import SearchBar from './components/SearchBar';
 
 function App() {
 
